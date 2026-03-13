@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>강화 한마음교회 링크 모음</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50; /* 메인 색상 (짙은 네이비) */
+            --bg-color: #f4f7f6;      /* 배경 색상 */
+            --button-bg: #ffffff;   /* 버튼 배경 */
+            --text-color: #333333;
+        }
+
+        body {
+            font-family: 'Nanum Gothic', sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: var(--text-color);
+        }
+
+        .container {
+            width: 100%;
+            max-width: 400px; /* 링크트리 스타일의 좁은 너비 */
+            padding: 20px;
+            text-align: center;
+        }
+
+        .profile-img {
+            width: 90px;
+            height: 90px;
+            background-color: #ddd;
+            border-radius: 50%;
+            margin-bottom: 15px;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+
+        .links-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 15px; /* 버튼 사이 간격 */
+        }
+
+        /* 공통 버튼 스타일 */
+        .link-card {
+            background-color: var(--button-bg);
+            border: 1.5px solid #ececec;
+            padding: 16px;
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        /* 마우스 호버 효과 */
+        .link-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+            border-color: var(--primary-color);
+            background-color: var(--primary-color);
+            color: #ffffff;
+        }
+
+        .footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!--<img src="https://via.placeholder.com/150" alt="교회 로고" class="profile-img">-->
+        
+        <h1>강화 한마음교회 온라인 채널</h1>
+
+        <div class="links-wrapper">
+            <a href="https://www.onemindchurch.kr/home" class="link-card" target="_blank">🌐 교회 메인 홈페이지</a>
+            <a href="https://www.youtube.com/@hanmaumchurch153" class="link-card" target="_blank">📺 유튜브 채널</a>
+            <a href=https://www.instagram.com/2025hanmaeum/" class="link-card" target="_blank">📸 인스타그램</a>
+            <a href="https://cafe.naver.com/카페ID" class="link-card" target="_blank">☕ 네이버 카페</a>
+
+            </div>
+
+        <div class="footer">
+            © 2026 강화 한마음교회. All rights reserved.
+        </div>
+    </div>
+
+</body>
+</html>
